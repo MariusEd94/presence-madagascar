@@ -13,7 +13,7 @@ interface Article {
   images?: string[]; // images peut être un tableau ou non défini
 }
 
-export default function ArticlePage() {
+export default function Article() {
   const params = useParams();
   const id = params?.id;
 
@@ -21,9 +21,7 @@ export default function ArticlePage() {
     return <h1>Chargement...</h1>;
   }
 
-  const article: Article | undefined = articles.find(
-    (a) => a.id === Number(id)
-  );
+  const article = articles.find((a) => a.id === Number(id));
 
   if (!article) {
     return <h1>Article non trouvé</h1>;
