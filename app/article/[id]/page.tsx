@@ -7,8 +7,8 @@ import articles from "../../data/articles.json";
 // Définir une interface TypeScript pour un article
 interface Article {
   id: number;
-  title: string;
-  image: string;
+  title?: string;
+  image?: string;
   content: string;
   images?: string[]; // images peut être un tableau ou non défini
 }
@@ -21,7 +21,9 @@ export default function ArticlePage() {
     return <h1>Chargement...</h1>;
   }
 
-  const article: Article = articles.find((a) => a.id === Number(id));
+  const article: Article | undefined = articles.find(
+    (a) => a.id === Number(id)
+  );
 
   if (!article) {
     return <h1>Article non trouvé</h1>;
@@ -37,7 +39,7 @@ export default function ArticlePage() {
         src={`${article.image}`}
         width={700}
         height={525}
-        alt={article.title}
+        alt={article.title ?? "Titre"}
         className="mx-auto"
       />
 
