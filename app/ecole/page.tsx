@@ -15,7 +15,7 @@ export default function Home() {
           {" "}
           <div className="flex w-full flex-col">
             <div className="divider text-3xl font-bold my-8">
-              Ecole "LE LUMIGNON", pour les plus démunis
+              Ecole "LE LUMIGNON"
             </div>
             <p className="indent-8 text-gray-700 m-4 text-justify">
               En juillet 2009, après la mise en place des familles d’accueil, un
@@ -37,7 +37,7 @@ export default function Home() {
                 La fourniture des tables-bancs et autres matériels scolaires
               </li>
             </ul>
-            <div className="flex justify-center gap-8 mt-8">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 mt-8">
               <div className="card bg-base-100 w-96 shadow-sm">
                 <figure>
                   <Image
@@ -94,7 +94,7 @@ export default function Home() {
               secteurs d’activités.
             </p>
 
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
               <div className="card bg-base-100 w-96 shadow-sm">
                 <figure>
                   <Image
@@ -171,9 +171,9 @@ export default function Home() {
         <div className="p-8 my-8 lg:text-xl">
           <div className="flex w-full flex-col">
             <div className="divider text-3xl font-bold my-4">
-              Ecole de brousse "MIARANTSOA"
+              Ecole "MIARANTSOA"
             </div>
-            <div className="grid grid-cols-3 gap-4 pt-8">
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 pt-8">
               {" "}
               <div className="card bg-base-100 w-96 shadow-sm">
                 <figure>

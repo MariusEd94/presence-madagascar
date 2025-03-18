@@ -65,7 +65,8 @@ export default function Home() {
           Mingestrasse 20, CH-3030 Berne <br />
           SWIFT/BIC: POFICHBEXXX <br />
           ou <br />
-          par TWINT au 078 655 00 31 <br />
+          par TWINT au 078 655 00 31 / 0041 7968900650
+          <br />
         </div>
       </section>
     </main>

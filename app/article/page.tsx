@@ -4,7 +4,79 @@ import Image from "next/image";
 export default function articles() {
   return (
     <div className="p-4">
-      <div className="sm:flex md:grid lg:grid md:grid-cols-3 lg:grid-cols-4 gap-3">
+      <div className="flex flex-wrap justify-center items-center md:grid lg:grid md:grid-cols-3 lg:grid-cols-4 gap-3">
+        <div className="card mb-4 bg-base-100 w-70 shadow-lg">
+          <figure>
+            <Image
+              src="/images/actus/a43.jpg"
+              alt="presence madagascar image"
+              className="w-full"
+              width={280}
+              height={260}
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <div className="badge badge-dash badge-primary">Octobre 2024</div>
+            <h4>
+              Visite du Président de l'Association Présence Madagascar : Un
+              Moment de Partage et de Solidarité{" "}
+            </h4>
+            <div className="card-actions">
+              <Link href="/article/43" as="/article/43">
+                <button className="btn btn-warning">Lire l'article</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="card mb-4 bg-base-100 w-70 shadow-lg">
+          <figure>
+            <Image
+              src="/images/actus/a42.jpg"
+              alt="presence madagascar image"
+              className="w-full"
+              width={280}
+              height={260}
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <div className="badge badge-dash badge-primary">SEPTEMBRE 2024</div>
+            <h4>
+              SEPTEMBRE 2024 : Présence Madagascar Suisse Finance la Rénovation
+              de l'École Le Lumignon{" "}
+            </h4>
+            <div className="card-actions">
+              <Link href="/article/42" as="/article/42">
+                <button className="btn btn-warning">Lire l'article</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="card mb-4 bg-base-100 w-70 shadow-lg">
+          <figure>
+            <Image
+              src="/images/actus/a41.jpg"
+              alt="presence madagascar image"
+              className="w-full"
+              width={280}
+              height={260}
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <div className="badge badge-dash badge-primary">Avril 2022</div>
+            <h4>
+              AVRIL 2022 : Soutien des Ambassades Suisse et Allemande au Centre
+              Fanantenana : Un Projet pour l'Avenir{" "}
+            </h4>
+            <div className="card-actions">
+              <Link href="/article/41" as="/article/41">
+                <button className="btn btn-warning">Lire l'article</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
         <div className="card mb-4 bg-base-100 w-70 shadow-lg">
           <figure>
             <Image

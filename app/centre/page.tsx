@@ -14,8 +14,8 @@ export default function Home() {
         <div className="p-8 my-8 lg:text-xl">
           {" "}
           <div className="flex w-full flex-col">
-            <div className="divider text-3xl font-bold my-8">
-              PRESENTATION DU CENTRE FANANTENANA{" "}
+            <div className="flex divider text-3xl font-bold my-8">
+              PRESENTATION DU CENTRE{" "}
             </div>
             <p className="indent-8 text-gray-700 m-4 text-justify">
               Le Centre est situé en ville de Toamasina sur un terrain d’un seul
@@ -25,7 +25,7 @@ export default function Home() {
               mur d’enceinte en dur et de deux portails en métal. Il est
               constitué de :
             </p>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
               <div className="card bg-base-100 w-96 shadow-sm">
                 <figure>
                   <Image

@@ -7,7 +7,7 @@ export default function Home() {
         <div>
           <Image
             src="/images/home/bgpm.jpg"
-            alt="logo presence madagascar"
+            alt="image de couverture de l'association presence madagascar"
             width={6400}
             height={2032}
           />
@@ -27,8 +27,8 @@ export default function Home() {
         sociale et à l’insertion de :{" "}
       </div>
 
-      <div className="flex flex-row items-center justify-center gap-4 m-4">
-        <div className="card bg-base-100 w-96 shadow-sm">
+      <div className="grid sm:grid-cols-1 md:flex gap-4 sm:p-4 ">
+        <div className="card bg-base-100 md:w-96 shadow-sm sm:w-full mx-4">
           <figure className="h-full">
             <Image
               src="/images/home/orphelin.jpg"
@@ -41,7 +41,7 @@ export default function Home() {
             <h2 className="card-title">Jeunes orphelins abandonnés</h2>
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-base-100 md:w-96 shadow-sm sm:w-full mx-4">
           <figure className="h-full">
             <Image
               src="/images/home/adolescent.jpg"
@@ -54,7 +54,7 @@ export default function Home() {
             <h2 className="card-title">Mamans adolescentes en détresse</h2>
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-base-100 md:w-96 shadow-sm sm:w-full mx-4">
           <figure className="h-full">
             <Image
               src="/images/home/rupture.jpg"
@@ -69,7 +69,7 @@ export default function Home() {
             </h2>
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-base-100 md:w-96 shadow-sm sm:w-full mx-4">
           <figure className="h-full">
             <Image
               src="/images/home/descolarise.jpg"
@@ -91,7 +91,7 @@ export default function Home() {
       </div>
 
       <section>
-        <div className="flex items-center justify-center mx-4 my-4 gap-4">
+        <div className="flex items-center justify-center flex-wrap mx-4 my-4 gap-4 sm:p-4 ">
           <div className="card bg-warning w-96 shadow-lg">
             <figure className="px-10 pt-10">
               <Image
@@ -168,14 +168,14 @@ export default function Home() {
       </section>
 
       <div className="flex w-full flex-col">
-        <div className="divider text-3xl font-bold pt-8">
+        <div className="divider sm:flex text-3xl font-bold pt-8">
           UN REGARD SUR NOTRE MISSION
         </div>
       </div>
 
       <section>
-        <div className="flex flex-wrap items-center justify-center gap-3 my-8">
-          <div className="w-1/3">
+        <div className="flex flex-wrap items-center justify-center md:grid md:grid-cols-3 gap-3 my-8 mx-4">
+          <div className="w-full">
             <Image
               src="/images/portfolio/a.jpg"
               alt="Shoes"
@@ -183,7 +183,7 @@ export default function Home() {
               height={600}
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-full">
             <Image
               src="/images/portfolio/b.jpg"
               alt="Shoes"
@@ -191,7 +191,7 @@ export default function Home() {
               height={600}
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-full">
             <Image
               src="/images/portfolio/c.jpg"
               alt="enfants présence madagascar"
@@ -199,7 +199,7 @@ export default function Home() {
               height={600}
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-full">
             <Image
               src="/images/portfolio/d.jpg"
               alt="Shoes"
@@ -207,7 +207,7 @@ export default function Home() {
               height={600}
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-full">
             <Image
               src="/images/portfolio/e.jpg"
               alt="Shoes"
@@ -215,7 +215,7 @@ export default function Home() {
               height={600}
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-full">
             <Image
               src="/images/portfolio/f.jpg"
               alt="Shoes"
@@ -231,26 +231,26 @@ export default function Home() {
           EVENEMENTS RECENTS
         </div>
 
-        <div className="flex justify-center gap-4 my-8">
+        <div className="flex justify-center flex-wrap gap-4 my-8">
           {" "}
           <div className="card mb-4 bg-base-100 w-70 shadow-lg">
             <figure>
               <Image
-                src="/images/actus/40.jpg"
-                alt="repas2"
+                src="/images/actus/a43.jpg"
+                alt="presence madagascar image"
                 className="w-full"
                 width={280}
                 height={260}
               />
             </figure>
             <div className="card-body items-center text-center">
-              <div className="badge badge-dash badge-primary">Août 2021</div>
+              <div className="badge badge-dash badge-primary">Octobre 2024</div>
               <h4>
-                2ème EDITION REPAS DE SOUTIEN. Plus de 160 personnes sont
-                venus...{" "}
+                Visite du Président de l'Association Présence Madagascar : Un
+                Moment de Partage et de Solidarité{" "}
               </h4>
               <div className="card-actions">
-                <Link href="/article/40" as="/article/40">
+                <Link href="/article/43" as="/article/43">
                   <button className="btn btn-warning">Lire l'article</button>
                 </Link>
               </div>
@@ -259,18 +259,23 @@ export default function Home() {
           <div className="card mb-4 bg-base-100 w-70 shadow-lg">
             <figure>
               <Image
-                src="/images/actus/39.jpg"
-                alt="Shoes"
+                src="/images/actus/a42.jpg"
+                alt="presence madagascar image"
                 className="w-full"
                 width={280}
                 height={260}
               />
             </figure>
             <div className="card-body items-center text-center">
-              <div className="badge badge-dash badge-primary">Juin 2021</div>
-              <h4>Inauguration de l'aire de jeux de l'école LE LUMIGNON... </h4>
+              <div className="badge badge-dash badge-primary">
+                SEPTEMBRE 2024
+              </div>
+              <h4>
+                SEPTEMBRE 2024 : Présence Madagascar Suisse Finance la
+                Rénovation de l'École Le Lumignon{" "}
+              </h4>
               <div className="card-actions">
-                <Link href="/article/39" as="/article/39">
+                <Link href="/article/42" as="/article/42">
                   <button className="btn btn-warning">Lire l'article</button>
                 </Link>
               </div>
@@ -279,18 +284,21 @@ export default function Home() {
           <div className="card mb-4 bg-base-100 w-70 shadow-lg">
             <figure>
               <Image
-                src="/images/actus/38.jpg"
-                alt="Shoes"
+                src="/images/actus/a41.jpg"
+                alt="presence madagascar image"
                 className="w-full"
                 width={280}
                 height={260}
               />
             </figure>
             <div className="card-body items-center text-center">
-              <div className="badge badge-dash badge-primary">Mars 2021</div>
-              <h4>Vente de vanilles au frofit de PRESENCE MADAGASCAR... </h4>
+              <div className="badge badge-dash badge-primary">Avril 2022</div>
+              <h4>
+                AVRIL 2022 : Soutien des Ambassades Suisse et Allemande au
+                Centre Fanantenana : Un Projet pour l'Avenir{" "}
+              </h4>
               <div className="card-actions">
-                <Link href="/article/38" as="/article/38">
+                <Link href="/article/41" as="/article/41">
                   <button className="btn btn-warning">Lire l'article</button>
                 </Link>
               </div>
