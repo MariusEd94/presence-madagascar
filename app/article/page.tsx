@@ -8,6 +8,30 @@ export default function articles() {
         <div className="card mb-4 bg-base-100 w-70 shadow-lg">
           <figure>
             <Image
+              src="/images/actus/a44.jpg"
+              alt="presence madagascar image"
+              className="w-full"
+              width={280}
+              height={260}
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <div className="badge badge-dash badge-primary">Juin 2025</div>
+            <h4>
+              Mission solidaire: six jeunes de La Fontanelle se sont rendus à
+              Madagascar{" "}
+            </h4>
+            <div className="card-actions">
+              <Link href="/article/44" as="/article/44">
+                <button className="btn btn-warning">Lire l'article</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="card mb-4 bg-base-100 w-70 shadow-lg">
+          <figure>
+            <Image
               src="/images/actus/a43.jpg"
               alt="presence madagascar image"
               className="w-full"
