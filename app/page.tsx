@@ -236,6 +236,29 @@ export default function Home() {
           <div className="card mb-4 bg-base-100 w-70 shadow-lg">
             <figure>
               <Image
+                src="/images/actus/a44.jpg"
+                alt="presence madagascar image"
+                className="w-full"
+                width={280}
+                height={260}
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <div className="badge badge-dash badge-primary">JUIN 2025</div>
+              <h4>
+                Mission solidaire: six jeunes de La Fontanelle se sont rendus à
+                Madagascar{" "}
+              </h4>
+              <div className="card-actions">
+                <Link href="/article/44" as="/article/44">
+                  <button className="btn btn-warning">Lire l'article</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="card mb-4 bg-base-100 w-70 shadow-lg">
+            <figure>
+              <Image
                 src="/images/actus/a43.jpg"
                 alt="presence madagascar image"
                 className="w-full"
@@ -276,29 +299,6 @@ export default function Home() {
               </h4>
               <div className="card-actions">
                 <Link href="/article/42" as="/article/42">
-                  <button className="btn btn-warning">Lire l'article</button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="card mb-4 bg-base-100 w-70 shadow-lg">
-            <figure>
-              <Image
-                src="/images/actus/a41.jpg"
-                alt="presence madagascar image"
-                className="w-full"
-                width={280}
-                height={260}
-              />
-            </figure>
-            <div className="card-body items-center text-center">
-              <div className="badge badge-dash badge-primary">Avril 2022</div>
-              <h4>
-                AVRIL 2022 : Soutien des Ambassades Suisse et Allemande au
-                Centre Fanantenana : Un Projet pour l'Avenir{" "}
-              </h4>
-              <div className="card-actions">
-                <Link href="/article/41" as="/article/41">
                   <button className="btn btn-warning">Lire l'article</button>
                 </Link>
               </div>
