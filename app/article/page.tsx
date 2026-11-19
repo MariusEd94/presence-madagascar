@@ -6,6 +6,29 @@ export default function articles() {
     <div className="p-4">
       <div className="flex flex-wrap justify-center items-center md:grid lg:grid md:grid-cols-3 lg:grid-cols-4 gap-3">
 
+          <div className="card mb-4 bg-base-100 w-70 shadow-lg">
+          <figure>
+            <Image
+              src="/images/actus/a47.jpg"
+              alt="presence madagascar image"
+              className="w-full"
+              width={280}
+              height={260}
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <div className="badge badge-dash badge-primary">Novembre 2026</div>
+            <h4>
+              Joshua et Manon visitent "PRESENCE MADAGASCAR"{" "}
+            </h4>
+            <div className="card-actions">
+              <Link href="/article/47" as="/article/47">
+                <button className="btn btn-warning">Lire l'article</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
 
         <div className="card mb-4 bg-base-100 w-70 shadow-lg">
           <figure>
