@@ -162,9 +162,9 @@ export default function RootLayout({
                   Bertrand Gallay <br />
                   Tel: 0041 79 689 06 50 <br />
                   Email: bertrand.gallay@gmail.com <br />
-                  Pierre Morard <br />
-                  Tel: 0041 78 655 00 31 <br />
-                  Email: morardpierre@hotmail.com <br />
+                  Secrétaire: Myriam Chamorel <br />
+                  Tel: 076 530 53 16 <br />
+                  Email: info@ares-gestion.ch<br />
                   Facebook: Présence Madagascar <br />
                 </div>
               </div>
