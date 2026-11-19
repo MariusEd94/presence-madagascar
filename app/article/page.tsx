@@ -6,6 +6,30 @@ export default function articles() {
     <div className="p-4">
       <div className="flex flex-wrap justify-center items-center md:grid lg:grid md:grid-cols-3 lg:grid-cols-4 gap-3">
 
+
+        <div className="card mb-4 bg-base-100 w-70 shadow-lg">
+          <figure>
+            <Image
+              src="/images/actus/a46.jpg"
+              alt="presence madagascar image"
+              className="w-full"
+              width={280}
+              height={260}
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <div className="badge badge-dash badge-primary">Août 2026</div>
+            <h4>
+              Le président de l’association se rend à Tamatave pour accélérer la reconstruction après Gezani{" "}
+            </h4>
+            <div className="card-actions">
+              <Link href="/article/46" as="/article/46">
+                <button className="btn btn-warning">Lire l'article</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
         <div className="card mb-4 bg-base-100 w-70 shadow-lg">
           <figure>
             <Image
@@ -17,7 +41,7 @@ export default function articles() {
             />
           </figure>
           <div className="card-body items-center text-center">
-            <div className="badge badge-dash badge-primary">Juin 2025</div>
+            <div className="badge badge-dash badge-primary">Février 2026</div>
             <h4>
               Reconstruction après le cyclone Gezani : Présence Madagascar mobilise des bienfaiteurs pour les écoles de Tamatave{" "}
             </h4>
